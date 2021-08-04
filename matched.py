@@ -69,8 +69,8 @@ while active :
         expression = input("Masukkan Expression : ")
         match = is_matched(expression)
         if match :
-            print("\ndelimiters Anda cocok semua")
+            print("\n Delimiters Anda cocok semua")
         else :
-            print("\nTerdapat delimiters yang tidak cocok")
+            print("\n Ada delimiters yang tidak cocok")
     else :
         break
